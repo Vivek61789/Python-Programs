@@ -16,7 +16,7 @@ Shallow copy → photocopying a folder — new folder, but the papers inside are
 
 Deep copy → photocopying both the folder AND every paper inside — completely independent
 
-===============================================================================================================
+================================================================
 Core idea:
 
 import copy
@@ -33,7 +33,7 @@ print(ref[0][0])     # 999 — same object!
 print(shallow[0][0]) # 999 — inner list shared!
 print(deep[0][0])    # 1   — completely independent!
 
-==============================================================================================================
+=======================================================================
 
 Why Understand Copy Behavior?
 Without understanding:
@@ -60,7 +60,7 @@ With understanding:
   
   ✅ Snapshot/history systems
 
-================================================================================
+========================================================================
 
 How Python Memory Works with Copies
 Assignment (=):
@@ -96,4 +96,4 @@ Deep Copy:
   deep     ──► LIST2 ──► [1,2]  (NEW copy)
                      ──► [3,4]  (NEW copy)
 
-======================================================================================
+=======================================================================
