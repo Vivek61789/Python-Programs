@@ -81,7 +81,7 @@ Shallow Copy:
 
   Memory:
   original ──► LIST1 ──► [1,2]  ◄── shared!
-                     ──► [3,4]  ◄── shared!
+                   ──► [3,4]  ◄── shared!
 
   shallow  ──► LIST2 ──► [1,2]  ◄── same inner objects
                      ──► [3,4]  ◄── same inner objects
