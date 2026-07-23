@@ -9,3 +9,19 @@ Iterator  → object that produces values one at a time
 Generator → special iterator created with yield
             Automatically has __iter__ and __next__
             Examples: generator functions, generator expressions
+
+
+===========================================================================
+
+
+Why Decorators?
+DRY Principle — write cross-cutting concerns once
+Separation of concerns — keep core logic clean
+Reusable — apply same behavior to many functions
+Non-invasive — add behavior without changing original
+Common uses:
+Logging, timing, caching
+Authentication, authorization
+Input validation
+Retry logic
+Rate limiting
